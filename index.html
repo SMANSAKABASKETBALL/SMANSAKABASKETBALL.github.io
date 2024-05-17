@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMANSAKA Basketball</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="file:///C:/Users/Andriansyah/Downloads/WhatsApp%20Image%202024-05-16%20at%2012.28.09.jpeg" alt="Team Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#players">Players</a></li>
+                    <li><a href="#schedule">Jadwal Tanding</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="hero-container">
+            <h1>SMAN 1 KANDANGHAUR BASKETBALL</h1>
+            <p>BISA BISA BISA!</p>
+            <a href="#schedule" class="btn">Lihat Jadwal Tanding</a>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="container">
+            <div class="feature-card">
+                <h3>MVP</h3>
+                <img src="mvp-photo.jpg" alt="Foto MVP">
+                <p>Nama: - MVP</p>
+                <p>Statistik: - Poin, -Rebound, - Assist</p>
+            </div>
+            <div class="feature-card">
+                <h3>Foto Hasil Pertandingan</h3>
+                <img src="match-result1.jpg" alt="Foto Hasil Pertandingan 1">
+                <img src="match-result2.jpg" alt="Foto Hasil Pertandingan 2">
+                <!-- Tambahkan lebih banyak foto jika diperlukan -->
+            </div>
+            <div class="feature-card">
+                <h3>Statistik</h3>
+                <p>Tim A: SOON</p>
+                <p>Tim B: SOON</p>
+                <p>Top Scorer: - (-)</p>
+                <!-- Tambahkan lebih banyak statistik jika diperlukan -->
+            </div>
+        </div>
+    </section>
+
+
+    <section id="players">
+        <div class="container">
+            <h2>Players</h2>
+            <div class="player-category">
+                <h3>Men</h3>
+                <div class="player-grid">
+                    <!-- Example Player -->
+                    <div class="player-card">
+                        <h4 class="Syam Hasbi Noer Fadhilah" onclick="toggleDetails('Syam Hasbi Noer Fadhilah')">Syam Hasbi Noer Fadhilah</h4>
+                        <div id="Syam Hasbi Noer Fadhilah" class="player-details">
+                            <img src="Syam Hasbi Noer Fadhilah.jpg" alt="Syam Hasbi Noer Fadhilah">
+                            <p>Nomor Punggung: 1</p>
+                            <p>Posisi:Point Guard</p>
+                            <p>Tinggi Badan: 180 cm</p>
+                        </div>
+                    </div>
+                    <!-- Repeat for each player -->
+                    <div class="player-card">
+                        <h4 class="Shandyka Putra One" onclick="toggleDetails('Shandyka Putra One')">Shandyka Putra One</h4>
+                        <div id="Shandyka Putra One" class="player-details">
+                            <img src="file:///C:/Users/Andriansyah/Downloads/WhatsApp%20Image%202024-05-16%20at%2015.13.06.jpeg" alt="Shandyka Putra One">
+                            <p>Nomor Punggung: 18</p>
+                            <p>Posisi:Point Guard</p>
+                            <p>Tinggi Badan: 160 cm</p>
+                        </div>
+                    </div>
+                    <div class="player-card">
+                        <h4 class="Naufal  Hail" onclick="toggleDetails('Naufal  Hail')">Naufal  Hail</h4>
+                        <div id="Naufal  Hail" class="player-details">
+                            <img src="Naufal  Hail.jpg" alt="Naufal  Hail">
+                            <p>Nomor Punggung: 2</p>
+                            <p>Posisi:Shooting Guard</p>
+                            <p>Tinggi Badan: 175 cm</p>
+                            </div>
+                            </div>
+                            <div class="player-card">
+                                <h4 class="Fikri Roihan Haqiqi " onclick="toggleDetails('Fikri Roihan Haqiqi ')">Fikri Roihan Haqiqi </h4>
+                                <div id="Fikri Roihan Haqiqi " class="player-details">
+                                    <img src="file:///C:/Users/Andriansyah/Downloads/fikri_new.jpeg" alt="Fikri Roihan Haqiqi ">
+                                    <p>Nomor Punggung: 43</p>
+                                    <p>Posisi:Shooting Guard</p>
+                                    <p>Tinggi Badan: 166 cm</p>
+                                    </div>
+                                    </div>
+                                    <div class="player-card">
+                                        <h4 class="Sehan Rifa Geanezar" onclick="toggleDetails('Sehan Rifa Geanezar')">Sehan Rifa Geanezar</h4>
+                                        <div id="Sehan Rifa Geanezar" class="player-details">
+                                            <img src="file:///C:/Users/Andriansyah/Downloads/WhatsApp%20Image%202024-05-16%20at%2020.03.46.jpeg" alt=" Sehan Rifa Geanezar">
+                                            <p>Nomor Punggung: 2</p>
+                                            <p>Posisi:Small Forward</p>
+                                            <p>Tinggi Badan: 175 cm</p>
+                                            </div>
+                                            </div>
+                                            <div class="player-card">
+                                                <h4 class="Anan Sukendar " onclick="toggleDetails('Anan Sukendar ')">Anan Sukendar </h4>
+                                                <div id="Anan Sukendar " class="player-details">
+                                                    <img src="Anan Sukendar .jpg" alt="Anan Sukendar ">
+                                                    <p>Nomor Punggung: 2</p>
+                                                    <p>Posisi:Small Forward</p>
+                                                    <p>Tinggi Badan: 175 cm</p>
+                </div>
+                </div>
+                <div class="player-card">
+                    <h4 class="Gonjales Diamond Hutagalung" onclick="toggleDetails('Gonjales Diamond Hutagalung')">Gonjales Diamond Hutagalung</h4>
+                    <div id="Gonjales Diamond Hutagalung" class="player-details">
+                        <img src="Gonjales Diamond Hutagalung.jpg" alt="Gonjales Diamond Hutagalung">
+                        <p>Nomor Punggung: 2</p>
+                        <p>Posisi:Small Forward</p>
+                        <p>Tinggi Badan: 175 cm</p>
+                        </div>
+                        </div>
+                        <div class="player-card">
+                            <h4 class="Dendi Adriansyah" onclick="toggleDetails('Dendi Adriansyah')">Dendi Adriansyah</h4>
+                            <div id="Dendi Adriansyah" class="player-details">
+                                <img src="file:///C:/Users/Andriansyah/Downloads/WhatsApp%20Image%202024-05-16%20at%2014.21.18.jpeg" alt="Dendi Adriansyah">
+                                <p>Nomor Punggung: 21</p>
+                                <p>Posisi:Power Forward</p>
+                                <p>Tinggi Badan: 173 cm</p>
+                                </div>
+                                </div>
+                                <div class="player-card">
+                                    <h4 class="Nur Alif " onclick="toggleDetails('Nur Alif ')">Nur Alif </h4>
+                                    <div id="Nur Alif " class="player-details">
+                                        <img src="file:///C:/Users/Andriansyah/Downloads/WhatsApp%20Image%202024-05-16%20at%2020.00.18.jpeg" alt="Nur Alif ">
+                                        <p>Nomor Punggung: 35</p>
+                                        <p>Posisi:Power Forward</p>
+                                        <p>Tinggi Badan: 178 cm</p>
+                                        </div>
+                                        </div>
+                                        <div class="player-card">
+                                            <h4 class="Guntur Saputra Wijaya " onclick="toggleDetails('Guntur Saputra Wijaya ')">Guntur Saputra Wijaya </h4>
+                                            <div id="Guntur Saputra Wijaya " class="player-details">
+                                                <img src="file:///C:/Users/Andriansyah/Downloads/WhatsApp%20Image%202024-05-08%20at%2005.31.16.jpeg " alt="Guntur Saputra Wijaya ">
+                                                <p>Nomor Punggung: 28</p>
+                                                <p>Posisi:Power Forward</p>
+                                                <p>Tinggi Badan: 168cm</p>
+                                                </div>
+                                                </div>
+                                                <div class="player-card">
+                                                    <h4 class="Danendra Rakha " onclick="toggleDetails('Danendra Rakha ')">Danendra Rakha </h4>
+                                                    <div id="Danendra Rakha " class="player-details">
+                                                        <img src="file:///C:/Users/Andriansyah/Downloads/WhatsApp%20Image%202024-05-16%20at%2014.26.02.jpeg " alt="Danendra Rakha ">
+                                                        <p>Nomor Punggung: 12</p>
+                                                        <p>Posisi: Center</p>
+                                                        <p>Tinggi Badan: 174 cm</p>
+                                                        </div>
+                                                        </div>
+                                                        <div class="player-card">
+                                                            <h4 class="Savier Keanu Zimran" onclick="toggleDetails('Savier Keanu Zimran')">Savier Keanu Zimran</h4>
+                                                            <div id="Savier Keanu Zimran" class="player-details">
+                                                                <img src="file:///C:/Users/Andriansyah/Downloads/WhatsApp%20Image%202024-05-16%20at%2021.58.35.jpeg" alt="Savier Keanu Zimran">
+                                                                <p>Nomor Punggung: 2</p>
+                                                                <p>Posisi: Center</p>
+                                                                <p>Tinggi Badan: 175 cm</p>
+                    <!-- Add more players up to 12 -->
+                </div>
+            </div>
+
+            <div class="player-category">
+                <h3>Women</h3>
+                <div class="player-grid">
+                    <!-- Example Player -->
+                    <div class="player-card">
+                        <h4 class="Ratu  Artika AzZahrae" onclick="toggleDetails('Ratu  Artika AzZahra')">Ratu  Artika AzZahra</h4>
+                        <div id="Ratu  Artika AzZahra" class="player-details">
+                            <img src="Ratu  Artika AzZahra" alt="Ratu  Artika AzZahra">
+                            <p>Nomor Punggung: 1</p>
+                            <p>Posisi:Point Guard</p>
+                            <p>Tinggi Badan: 170 cm</p>
+                        </div>
+                    </div>
+                    <!-- Repeat for each player -->
+                    <div class="player-card">
+                        <h4 class="Giva Nisatun Akhilah Safari" onclick="toggleDetails('Giva Nisatun Akhilah Safari')">Giva Nisatun Akhilah Safari</h4>
+                        <div id="Giva Nisatun Akhilah Safari" class="players-details">
+                            <img src="file:///C:/Users/Andriansyah/Downloads/WhatsApp%20Image%202024-05-16%20at%2020.38.27.jpeg" alt="Giva Nisatun Akhilah Safari" width="50" height="50">
+                            <p>Nomor Punggung: 9 </p>
+                            <p>Posisi:Point Guard</p>
+                            <p>Tinggi Badan: 165 cm</p>
+                        </div>
+                    </div>
+                    <div class="player-card">
+                        <h4 class=" Kezia Stefany Hutagalung" onclick="toggleDetails(' Kezia Stefany Hutagalung')"> Kezia Stefany Hutagalung</h4>
+                        <div id=" Kezia Stefany Hutagalung" class="player-details">
+                            <img src=" Kezia Stefany Hutagalung.jpg" alt=" Kezia Stefany Hutagalung">
+                            <p>Nomor Punggung: 14 </p>
+                            <p>Posisi:Shooting Guard </p>
+                            <p>Tinggi Badan: 175 cm</p>
+                            </div>
+                            </div>
+                            <div class="player-card">
+                                <h4 class="Hayatun Nafisah " onclick="toggleDetails('Hayatun Nafisah ')">Hayatun Nafisah </h4>
+                                <div id="Hayatun Nafisah " class="player-details">
+                                    <img src="Hayatun Nafisah " alt="Hayatun Nafisah ">
+                                    <p>Nomor Punggung: 2</p>
+                                    <p>Posisi:Shooting Guard </p>
+                                    <p>Tinggi Badan: 175 cm</p>
+                                    </div>
+                                    </div>
+                                    <div class="player-card">
+                                        <h4 class="Ratna Ningsih " onclick="toggleDetails('Ratna Ningsih ')">Ratna Ningsih </h4>
+                                        <div id="Ratna Ningsih " class="player-details">
+                                            <img src="Ratna Ningsih " alt="Ratna Ningsih ">
+                                            <p>Nomor Punggung: 2</p>
+                                            <p>Posisi:Shooting Forward</p>
+                                            <p>Tinggi Badan: 175 cm</p>
+                                </div>
+                                </div>
+                                <div class="player-card">
+                                    <h4 class="Anatasya Dwi Meylani" onclick="toggleDetails('Anatasya Dwi Meylani')">Anatasya Dwi Meylani</h4>
+                                    <div id="Anatasya Dwi Meylani" class="player-details">
+                                        <img src="Anatasya Dwi Meylani" alt="Anatasya Dwi Meylani">
+                                        <p>Nomor Punggung: 2</p>
+                                        <p>Posisi:Shooting Forward</p>
+                                        <p>Tinggi Badan: 175 cm</p>
+                                        </div>
+                                        </div>
+                                        <div class="player-card">
+                                            <h4 class="Laelatusipa " onclick="toggleDetails('Laelatusipa posisi ')">Laelatusipa posisi </h4>
+                                            <div id="Laelatusipa posisi " class="player-details">
+                                                <img src="Laelatusipa posisi " alt="Laelatusipa posisi ">
+                                                <p>Nomor Punggung: 2</p>
+                                                <p>Posisi:Shooting Forward</p>
+                                                <p>Tinggi Badan: 175 cm</p>
+                                                </div>
+                                                </div>
+                                                <div class="player-card">
+                                                    <h4 class="Gita Ramahdani " onclick="toggleDetails('Gita Ramahdani ')">Gita Ramahdani </h4>
+                                                    <div id="Gita Ramahdani " class="player-details">
+                                                        <img src="Gita Ramahdani " alt="Gita Ramahdani ">
+                                                        <p>Nomor Punggung: 2</p>
+                                                        <p>Posisi:Power Forward</p>
+                                                        <p>Tinggi Badan: 175 cm</p>
+                                </div>
+                                </div>
+                                <div class="player-card">
+                                    <h4 class="Marcela Dwita Maharani " onclick="toggleDetails('Marcela Dwita Maharani ')">Marcela Dwita Maharani </h4>
+                                    <div id="Marcela Dwita Maharani " class="player-details">
+                                        <img src="Marcela Dwita Maharani " alt="Marcela Dwita Maharani ">
+                                        <p>Nomor Punggung: 2</p>
+                                        <p>Posisi: Center</p>
+                                        <p>Tinggi Badan: 175 cm</p>
+                                        </div>
+                                        </div>
+                                        <div class="player-card">
+                                            <h4 class="Nicken Putri Aprilian" onclick="toggleDetails('Nicken Putri Aprilian')">Nicken Putri Aprilian</h4>
+                                            <div id="Nicken Putri Aprilian" class="player-details">
+                                                <img src="Nicken Putri Aprilian" alt="Nicken Putri Aprilian">
+                                                <p>Nomor Punggung: 2</p>
+                                                <p>Posisi: Center</p>
+                                                <p>Tinggi Badan: 175 cm</p>
+                                                </div>
+                                                </div>
+                                                
+                                                        
+            </div>
+        </div>
+    </section>
+
+    <section id="schedule">
+        <div class="container">
+            <h2>Jadwal Tanding</h2>
+            <div class="schedule-item">
+                <img src="file:///C:/Users/Andriansyah/Downloads/WhatsApp%20Image%202024-05-16%20at%2012.28.09.jpeg" alt="SMAN 1 KANDANGHAUR">
+                <img src="file:///C:/Users/Andriansyah/Downloads/WhatsApp%20Image%202024-05-16%20at%2020.27.01.jpeg" alt="Foto Tim 2">
+                <P>SMAN 1 KANDANGHAUR VS MA ALZAYTUN</P>
+                <P>Kategori: Tim Putri</P>
+                <p>Waktu: 12.00-13.00</p>
+                <p>Tempat: GOR DARMA AYU</p>
+            </div>
+            <div class="schedule-item">
+                <img src="file:///C:/Users/Andriansyah/Downloads/WhatsApp%20Image%202024-05-16%20at%2012.28.09.jpeg" alt="SMAN 1 KANDANGHAUR">
+                <img src="file:///C:/Users/Andriansyah/Downloads/WhatsApp%20Image%202024-05-16%20at%2020.13.52.jpeg" alt="Foto Tim 2">
+                <P>SMAN 1 KANDANGHAUR VS SMK PGRI JATIBARANG</P>
+                <P>Kategori: Tim Putra DIV 2</P>
+                <p>Waktu: 17.00-18.00</p>
+                <p>Tempat: GOR DARMA AYU</p>
+            </div>
+            <!-- Tambahkan jadwal lain di sini -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 SMANSAKA Basketball</p>
+        </div>
+    </footer>
+</body>
+</html>

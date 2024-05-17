@@ -1,0 +1,195 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #002244;
+  color: white;
+  padding: 10px 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+header .logo img {
+  width: 50px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+#hero {
+  background: url('hero-bg.jpg') no-repeat center center/cover;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+#hero .hero-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#hero h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+#hero p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+#hero .btn {
+  background-color: #ff8000;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#hero .btn:hover {
+  background-color: #ff9900;
+}
+
+#features {
+  background-color: white;
+  padding: 40px 0;
+}
+
+#features .container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.feature-card {
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(25% - 40px);
+  text-align: center;
+}
+
+.feature-card img {
+  width: 75px; /* Ukuran foto MVP dan hasil pertandingan */
+  height: auto;
+  border-radius: 50%;
+  margin: 10px 0;
+}
+
+#players, #schedule {
+  padding: 40px 0;
+}
+
+#players .container, #schedule .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#players h2, #schedule h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.player-category {
+  margin-bottom: 40px;
+}
+
+.player-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.player-card {
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: calc(25% - 40px);
+}
+
+.player-card .player-name {
+  cursor: pointer;
+  color: #002244;
+  font-weight: bold;
+}
+
+.player-card .player-name:hover {
+  text-decoration: underline;
+}
+
+.player-card .player-details {
+  display: none;
+  margin-top: 10px;
+}
+
+.player-card img {
+  width: 75px; /* Mengurangi ukuran foto pemain */
+  height: auto;
+  border-radius: 50%;
+}
+
+.schedule-item {
+  background-color: white;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.schedule-item img {
+  width: 75px; /* Ukuran konsisten untuk gambar jadwal */
+  height: auto;
+  border-radius: 50%;
+}
+
+footer {
+  background-color: #002244;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer .container {
+  width: 80%;
+  margin: 0 auto;
+}
